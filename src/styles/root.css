@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+	--primary-color: #ebf2fa;
+	--secondary-color: #cae9ff;
+	--logo-color: #6ac305;
+}
+
+*,
+*::after,
+*::before {
+	font-family: "Cinzel", serif;
+	font-family: "Exo 2", sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background-color: var(--primary-cl);
+}
+
+a {
+	text-decoration: none;
+}
