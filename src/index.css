@@ -1,23 +1,7 @@
 @import url("/src/styles/root.css");
+@import url("/src/styles/header.css");
 @import url("/src/styles/footer.css");
-
-header {
-	background: var(--secondary-color);
-}
-
-header > nav {
-	padding: 0 0.5em;
-	height: 4rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-a > h1 {
-	font-size: x-large;
-	font-family: "Cinzel", serif;
-	color: var(--logo-color);
-}
+@import url("/src/styles/sidebar.css");
 
 main {
 	max-width: 700px;
@@ -81,8 +65,11 @@ a.doc {
 }
 
 @media screen and (min-width: 768px) {
-	header {
-		padding: 0 1em;
+	main {
+		max-width: 100%;
+		margin: 0;
+		overflow: auto;
+		background: fixed;
 	}
 
 	section > h1 {

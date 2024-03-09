@@ -6,6 +6,9 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	box-shadow: -1px -1px 1px 1px #33333330;
+	position: relative;
+	z-index: 5;
 }
 
 footer > ul {

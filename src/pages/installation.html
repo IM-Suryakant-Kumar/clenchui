@@ -3,13 +3,21 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>ClenchUI</title>
-		<link rel="stylesheet" href="/src/index.css" />
+		<title>installation</title>
+		<link rel="stylesheet" href="/src/styles/installation.css" />
+		<script src="/src/scripts/menu.js" defer></script>
 	</head>
 	<body>
 		<!-- header -->
 		<header>
-			<a href="/"><h1>ClenchUI</h1></a>
+			<div class="logo">
+				<div class="menu-bar">
+					<div class="top"></div>
+					<div class="middle"></div>
+					<div class="bottom"></div>
+				</div>
+				<a href="/"><h1>ClenchUI</h1></a>
+			</div>
 			<a href="https://github.com/IM-Suryakant-Kumar/ClenchUI" target="_blank">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -25,19 +33,109 @@
 			</a>
 		</header>
 
-		<!-- main -->
-		<main>
-			<section>
-				<h1>Design your next project fastly and Easily</h1>
-				<p>
-					<strong>ClenchUI</strong> is a component library that gives you
-					builing blocks you need to build your applications faster and easily
-				</p>
-				<div class="links">
-					<a href="/src/pages/installation.html" class="start"
-						>Getting Started</a
+		<!-- aside -->
+		<aside>
+			<h3 class="chapter">Getting Started</h3>
+			<ul>
+				<li>
+					<a class="link active" href="/src/pages/installation.html"
+						>Installation</a
 					>
-					<a href="/src/pages/avatar.html" class="doc">Documentation</a>
+				</li>
+			</ul>
+			<h3 class="chapter">Components</h3>
+			<ul>
+				<li>
+					<a class="link" href="/src/pages/avatar.html">avatar</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/alert.html">alert</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/badge.html">badge</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/button.html">button</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/card.html">card</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/form.html">form</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/image.html">image</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/input.html">input</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/list.html">list</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/navbar.html">navbar</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/modal.html">modal</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/rating.html">rating</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/slider.html">slider</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/toast.html">toast</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/typography.html">typography</a>
+				</li>
+			</ul>
+			<h3 class="chapter">Layout</h3>
+			<ul>
+				<li>
+					<a class="link" href="/src/pages/grid.html">grid</a>
+				</li>
+				<li>
+					<a class="link" href="/src/pages/flex.html">flex</a>
+				</li>
+			</ul>
+			<h3 class="chapter">Pallete</h3>
+			<ul>
+				<li>
+					<a class="link" href="/src/pages/color.html">color</a>
+				</li>
+			</ul>
+		</aside>
+
+		<!-- main -->
+		<main class="installation">
+			<section>
+				<h2>Installation</h2>
+				<p>
+					Copy and paste the following CDN in your head section of your website
+					and start building now.
+				</p>
+				<div class="code">
+					<iframe
+						src="https://carbon.now.sh/embed?bg=rgba%280%2C139%2C248%2C1%29&t=blackboard&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%253C%21--For%2520importing%2520ClenchUI%2520in%2520css%2520file%2520use%2520this--%253E%250A%2520%2540import%2520url%28%2522https%253A%252F%252Fclenchui.netlify.app%252Fstyles%252Fmain.css%2522%29%253B%250A%2520%250A%2520%253C%21--For%2520importing%2520ClenchUI%2520in%2520html%2520head%2520tag%2520copy%2520and%2520paste%2520this%2520in%2520your%2520code--%253E%2520%250A%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fclenchui.netlify.app%252Fstyles%252Fmain.css%2522%253E%250A%2520%2520%250A"
+						sandbox="allow-scripts allow-same-origin">
+					</iframe>
+				</div>
+			</section>
+			<section>
+				<h2>Starter Template</h2>
+				<p>
+					Be sure to have your pages set up with the latest design and
+					development standards. That means using an HTML5 doctype and including
+					a viewport meta tag for proper responsive behaviors. Put it all
+					together and your pages should look like this:
+				</p>
+				<div class="code">
+					<iframe
+						src="https://carbon.now.sh/embed?bg=rgba%280%2C139%2C248%2C1%29&t=blackboard&wt=none&l=jsx&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%253C%21DOCTYPE%2520html%253E%250A%253Chtml%2520lang%253D%2522en%2522%253E%250A%2509%253Chead%253E%250A%2509%2509%253Cmeta%2520charset%253D%2522UTF-8%2522%2520%252F%253E%250A%2509%2509%253Cmeta%2520name%253D%2522viewport%2522%2520content%253D%2522width%253Ddevice-width%252C%2520initial-scale%253D1.0%2522%2520%252F%253E%250A%2509%2509%253Clink%250A%2509%2509%2509rel%253D%2522stylesheet%2522%250A%2509%2509%2509href%253D%2522https%253A%252F%252Fclenchui.netlify.app%252Fstyles%252Fmain.css%2522%2520%252F%253E%250A%2509%2509%253Ctitle%253EClenchUI%253C%252Ftitle%253E%250A%2509%253C%252Fhead%253E%250A%2509%253Cbody%253E%253C%252Fbody%253E%250A%253C%252Fhtml%253E%250A"
+						sandbox="allow-scripts allow-same-origin">
+					</iframe>
 				</div>
 			</section>
 		</main>
