@@ -1,0 +1,38 @@
+@import url("/src/styles/root.css");
+@import url("/src/styles/header.css");
+@import url("/src/styles/aside.css");
+@import url("/src/styles/footer.css");
+
+main.installation {
+	width: 90%;
+	margin: 1em auto;
+}
+
+main.installation > section > p {
+	padding: 0.5em 0 0.5em 0.5em;
+	color: gray;
+}
+
+@media screen and (min-width: 768px) {
+	main.installation {
+		width: calc(100% - 15rem);
+		margin: calc(-100vh - 6em) 0 2em 15em;
+	}
+
+	main > section:last-child {
+		padding-bottom: 12em;
+	}
+
+	main.installation > section {
+		padding-left: 1em;
+	}
+
+	main.installation > section > h2 {
+		font-size: xx-large;
+	}
+
+	main.installation > section > p {
+		font-size: larger;
+		padding: 1em 0 0.5em 1em;
+	}
+}
