@@ -33,18 +33,6 @@ ul {
 	margin-block-end: 0;
 }
 
-.code {
-	overflow: auto;
-	margin: 1em 0.25em;
-}
-
-.code > iframe {
-	width: 30rem;
-	transform: scale(1);
-	overflow: hidden;
-	border: 0;
-}
-
 @media screen and (min-width: 768px) {
 	*::-webkit-scrollbar {
 		width: 0.25em;
@@ -57,11 +45,5 @@ ul {
 	*::-webkit-scrollbar-thumb {
 		background-color: #33333340;
 		outline: 1px solid #29292929;
-	}
-
-	.code {
-		display: flex;
-		justify-content: center;
-		align-items: center;
 	}
 }
