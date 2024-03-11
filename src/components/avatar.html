@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="/src/styles/avatar.css" />
+		<script src="/src/scripts/menu.js" defer></script>
 		<title>Avatar || ClenchUI</title>
 	</head>
 	<body>
@@ -42,49 +43,49 @@
 			<h3 class="chapter">Components</h3>
 			<ul>
 				<li>
-					<a class="link active" href="/src/pages/avatar.html">avatar</a>
+					<a class="link active" href="/src/components/avatar.html">avatar</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/alert.html">alert</a>
+					<a class="link" href="/src/components/alert.html">alert</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/badge.html">badge</a>
+					<a class="link" href="/src/components/badge.html">badge</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/button.html">button</a>
+					<a class="link" href="/src/components/button.html">button</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/card.html">card</a>
+					<a class="link" href="/src/components/card.html">card</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/form.html">form</a>
+					<a class="link" href="/src/components/form.html">form</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/image.html">image</a>
+					<a class="link" href="/src/components/image.html">image</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/input.html">input</a>
+					<a class="link" href="/src/components/input.html">input</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/list.html">list</a>
+					<a class="link" href="/src/components/list.html">list</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/navbar.html">navbar</a>
+					<a class="link" href="/src/components/navbar.html">navbar</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/modal.html">modal</a>
+					<a class="link" href="/src/components/modal.html">modal</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/rating.html">rating</a>
+					<a class="link" href="/src/components/rating.html">rating</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/slider.html">slider</a>
+					<a class="link" href="/src/components/slider.html">slider</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/toast.html">toast</a>
+					<a class="link" href="/src/components/toast.html">toast</a>
 				</li>
 				<li>
-					<a class="link" href="/src/pages/typography.html">typography</a>
+					<a class="link" href="/src/components/typography.html">typography</a>
 				</li>
 			</ul>
 			<h3 class="chapter">Layout</h3>
@@ -103,8 +104,61 @@
 				</li>
 			</ul>
 		</aside>
-    <!-- main -->
-    <!-- footer -->
+		<!-- main -->
+		<main>
+			<section>
+				<h2>Avatar</h2>
+				<p>
+					The Avatar component is used to represent a user profile picture or
+					fallback
+				</p>
+			</section>
+			<!-- design -->
+			<section class="design">
+				<img
+					class="avatar"
+					src="/src/assets/avatar.jpg"
+					alt="avatar"
+					loading="lazy" />
+				<img
+					class="avatar sm-sz"
+					src="/src/assets/avatar.jpg"
+					alt="avatar"
+					loading="lazy" />
+				<img
+					class="avatar md-sz"
+					src="/src/assets/avatar.jpg"
+					alt="avatar"
+					loading="lazy" />
+				<img
+					class="avatar lg-sz"
+					src="/src/assets/avatar.jpg"
+					alt="avatar"
+					loading="lazy" />
+			</section>
+			<!-- code -->
+			<section class="code">
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%280%2C139%2C248%2C1%29&t=blackboard&wt=none&l=jsx&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522%252Fsrc%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520loading%253D%2522lazy%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520sm-sz%2522%2520src%253D%2522%252Fsrc%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520loading%253D%2522lazy%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520md-sz%2522%2520src%253D%2522%252Fsrc%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520loading%253D%2522lazy%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520lg-sz%2522%2520src%253D%2522%252Fsrc%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520loading%253D%2522lazy%2522%2520%252F%253E%250A"
+					sandbox="allow-scripts allow-same-origin">
+				</iframe>
+			</section>
+			<!-- design -->
+			<section class="design">
+				<div class="avatar">S</div>
+				<div class="avatar sm-sz">SK</div>
+				<div class="avatar md-sz">JD</div>
+				<div class="avatar lg-sz">SK</div>
+			</section>
+			<!-- code -->
+			<section class="code">
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%280%2C139%2C248%2C1%29&t=blackboard&wt=none&l=jsx&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=147%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253ES%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520sm-sz%2522%253ESK%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520md-sz%2522%253EJD%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520lg-sz%2522%253ESK%253C%252Fdiv%253E%250A"
+					sandbox="allow-scripts allow-same-origin">
+				</iframe>
+			</section>
+		</main>
+		<!-- footer -->
 		<footer>
 			<a href="/"><h1>ClenchUI</h1></a>
 			<ul>

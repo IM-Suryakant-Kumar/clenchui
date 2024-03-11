@@ -2,19 +2,33 @@
 @import url("/src/styles/header.css");
 @import url("/src/styles/aside.css");
 @import url("/src/styles/footer.css");
+@import url("/src/styles/main-section.css");
 
-main {
-	width: 90%;
-	margin: 1em auto;
+.avatar {
+	background: var(--secondary-color);
+	color: var(--logo-color);
+	width: 2.5rem;
+	height: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-size: cover;
+	border: 0.15em solid var(--logo-color);
+	font-weight: bold;
 }
 
-@media screen and (min-width: 768px) {
-	main {
-		width: calc(100% - 15rem);
-		margin: calc(-100vh - 6em) 0 2em 15em;
-	}
+.sm-sz {
+	width: 3.5rem;
+	height: 3.5rem;
+}
 
-	main > section:last-child {
-		padding-bottom: 12em;
-	}
+.md-sz {
+	width: 4.5rem;
+	height: 4.5rem;
+}
+
+.lg-sz {
+	width: 5.5rem;
+	height: 5.5rem;
 }
