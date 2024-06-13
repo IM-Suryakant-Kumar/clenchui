@@ -4,13 +4,14 @@
 	--primary-color: #ebf2fa;
 	--secondary-color: #cae9ff;
 	--logo-color: #008bf8;
+  --font-cinzel: "Cinzel", serif;
+  --font-exo2: "Exo 2", sans-serif;
 }
 
 *,
 *::after,
 *::before {
-	font-family: "Cinzel", serif;
-	font-family: "Exo 2", sans-serif;
+	font-family: var(--font-exo2);
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;

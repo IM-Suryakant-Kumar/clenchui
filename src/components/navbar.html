@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="/src/styles/list.css" />
+		<link rel="stylesheet" href="/src/styles/navbar.css" />
 		<script src="/src/scripts/menu.js" defer></script>
-		<title>List | ClenchUI</title>
+		<title>Navbar | ClenchUI</title>
 	</head>
 	<body>
 		<!-- header -->
@@ -66,10 +66,10 @@
 					<a class="link" href="/src/components/input.html">input</a>
 				</li>
 				<li>
-					<a class="link active" href="/src/components/list.html">list</a>
+					<a class="link" href="/src/components/list.html">list</a>
 				</li>
 				<li>
-					<a class="link" href="/src/components/navbar.html">navbar</a>
+					<a class="link active" href="/src/components/navbar.html">navbar</a>
 				</li>
 				<li>
 					<a class="link" href="/src/components/modal.html">modal</a>
@@ -106,45 +106,46 @@
 		<!-- main -->
 		<main>
 			<section>
-				<h2>List</h2>
-				<p>Lists are a continuous group of text or images. List are also used to show links</p>
+				<h2>Navbar</h2>
+				<p>
+					The navbar provides content and actions related to the current screen. It's used for
+					branding, screen titles, navigation, and actions.
+				</p>
 			</section>
-			<!-- Stacked List -->
+			<!-- Responsive Navbar -->
 			<section>
-				<h2>Stacked List</h2>
+				<h2>Responsive Navbar</h2>
 			</section>
 			<section class="design">
-				<ul class="stacked">
-					<li><a href="#link">Link 1</a></li>
-					<li><a href="#link">Link 2</a></li>
-					<li><a href="#link">Link 3</a></li>
-					<li><a href="#link">Link 4</a></li>
-					<li><a href="#link">Link 5</a></li>
-				</ul>
+				<header class="header">
+					<h2><span class="material-symbols-outlined"> menu </span></h2>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About</a>
+						<a href="">Blog</a>
+					</nav>
+				</header>
 			</section>
 			<section class="code">
 				<iframe
-					src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=jsx&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522stacked%2522%253E%250A%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523link%2522%253ELink%25201%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523link%2522%253ELink%25202%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523link%2522%253ELink%25203%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523link%2522%253ELink%25204%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523link%2522%253ELink%25205%253C%252Fa%253E%253C%252Fli%253E%250A%253C%252Ful%253E"
+					src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=jsx&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522header%2522%253E%250A%2520%2520%2520%2520%253Ch2%253E%253Cspan%2520class%253D%2522material-symbols-outlined%2522%253E%2520menu%2520%253C%252Fspan%253E%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cnav%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253EAbout%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253EBlog%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fnav%253E%250A%253C%252Fheader%253E"
 					sandbox="allow-scripts allow-same-origin"
 				>
 				</iframe>
 			</section>
-			<!-- Spaced List -->
+			<!-- Navbar with login button -->
 			<section>
-				<h2>Spaced List</h2>
+				<h2>Navbar with login button</h2>
 			</section>
 			<section class="design">
-				<ul class="spaced">
-					<li><a href="#link">Link 1</a></li>
-					<li><a href="#link">Link 2</a></li>
-					<li><a href="#link">Link 3</a></li>
-					<li><a href="#link">Link 4</a></li>
-					<li><a href="#link">Link 5</a></li>
-				</ul>
+				<header class="login-header">
+					<h2>ClenchUI</h2>
+					<button>Login</button>
+				</header>
 			</section>
 			<section class="code">
 				<iframe
-					src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=jsx&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522spaced%2522%253E%250A%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523link%2522%253ELink%25201%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523link%2522%253ELink%25202%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523link%2522%253ELink%25203%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523link%2522%253ELink%25204%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523link%2522%253ELink%25205%253C%252Fa%253E%253C%252Fli%253E%250A%253C%252Ful%253E"
+					src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=jsx&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522login-header%2522%253E%250A%2520%2520%253Ch2%253EClenchUI%253C%252Fh2%253E%250A%2520%2520%253Cbutton%253ELogin%253C%252Fbutton%253E%250A%253C%252Fheader%253E"
 					sandbox="allow-scripts allow-same-origin"
 				>
 				</iframe>
