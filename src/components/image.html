@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="/src/styles/card.css" />
+		<link rel="stylesheet" href="/src/styles/image.css" />
 		<script src="/src/scripts/menu.js" defer></script>
-		<title>Card | ClenchUI</title>
+		<title>Image | ClenchUI</title>
 	</head>
 	<body>
 		<!-- header -->
@@ -57,10 +57,10 @@
 					<a class="link" href="/src/components/button.html">button</a>
 				</li>
 				<li>
-					<a class="link active" href="/src/components/card.html">card</a>
+					<a class="link" href="/src/components/card.html">card</a>
 				</li>
 				<li>
-					<a class="link" href="/src/components/image.html">image</a>
+					<a class="link active" href="/src/components/image.html">image</a>
 				</li>
 				<li>
 					<a class="link" href="/src/components/input.html">input</a>
@@ -106,89 +106,52 @@
 		<!-- main -->
 		<main>
 			<section>
-				<h2>Card</h2>
+				<h2>Image</h2>
 				<p>
-					Cards contain content and actions about a single subject.Cards are surfaces that display
-					content and actions on a single topic
+					Image is the main focus of any website to attract client of it.So, it should be maintain
+					perfectly.
 				</p>
 			</section>
-			<!-- Vertical cards -->
+			<!-- Rounded Image -->
 			<section>
-				<h2>Vertical cards</h2>
+				<h2>Rounded Image</h2>
 			</section>
 			<section class="design">
-				<div class="card">
-					<img class="card-img" src="../assets/gun.jpeg" alt="Toy Gun for Kids" />
-					<div class="card-info">
-						<div class="left">
-							<h2 class="card-heading">Musical Army Style Toy Gun</h2>
-							<div class="stars">
-								<span class="material-symbols-outlined"> star </span>
-								<span class="material-symbols-outlined"> star </span>
-								<span class="material-symbols-outlined"> star </span>
-								<span class="material-symbols-outlined"> star </span>
-								<span class="material-symbols-outlined"> star </span>
-							</div>
-							<span class="price">₹337</span>
-						</div>
-						<span class="material-symbols-outlined heart-icon"> favorite </span>
-					</div>
-				</div>
-				<div class="card">
-					<img class="card-img" src="../assets/soldier-army.jpeg" alt="Toy Gun for Kids" />
-					<div class="card-info">
-						<div class="left">
-							<h2 class="card-heading">military-toy-soldier-army</h2>
-							<div class="stars">
-								<span class="material-symbols-outlined"> star </span>
-								<span class="material-symbols-outlined"> star </span>
-								<span class="material-symbols-outlined"> star </span>
-								<span class="material-symbols-outlined"> star </span>
-								<span class="material-symbols-outlined"> star </span>
-							</div>
-							<span class="price">₹416</span>
-						</div>
-						<span class="material-symbols-outlined heart-icon"> favorite </span>
-					</div>
-				</div>
+				<img class="rounded-img" src="../assets//soldier-army.jpeg" alt="soldier-army" />
+				<img class="rounded-img" src="../assets//avatar.jpg" alt="avatar" />
 			</section>
 			<section class="code">
 				<iframe
-					src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=jsx&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522..%252Fassets%252Fsoldier-army.jpeg%2522%2520alt%253D%2522Toy%2520Gun%2520for%2520Kids%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522left%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-heading%2522%253Emilitary-toy-soldier-army%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stars%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-symbols-outlined%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-symbols-outlined%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-symbols-outlined%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-symbols-outlined%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-symbols-outlined%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%25E2%2582%25B9416%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-symbols-outlined%2520heart-icon%2522%253E%2520favorite%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+					src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=jsx&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522rounded-img%2522%2520src%253D%2522..%252Fassets%252F%252Fsoldier-army.jpeg%2522%2520alt%253D%2522soldier-army%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522rounded-img%2522%2520src%253D%2522..%252Fassets%252F%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E"
 					sandbox="allow-scripts allow-same-origin"
 				>
 				</iframe>
 			</section>
-
-			<!-- Horizontal card -->
+			<!-- Square image -->
 			<section>
-				<h2>Horizontal card</h2>
+				<h2>Square Image</h2>
 			</section>
 			<section class="design">
-				<div class="card horizontal">
-					<div class="top">
-						<img src="../assets/naruto.jpeg" alt="naruto" />
-						<div class="info">
-							<h2>Naruto Anime Itachi Uchiha</h2>
-							<div class="stars">
-								<span class="material-symbols-outlined"> star </span>
-								<span class="material-symbols-outlined"> star </span>
-								<span class="material-symbols-outlined"> star </span>
-								<span class="material-symbols-outlined"> star </span>
-								<span class="material-symbols-outlined"> star </span>
-							</div>
-							<p class="price">₹416</p>
-						</div>
-					</div>
-					<div class="bottom">
-						<button>View</button>
-						<span class="material-symbols-outlined heart-icon"> favorite </span>
-					</div>
-				</div>
+				<img class="square-img" src="../assets//soldier-army.jpeg" alt="soldier-army" />
+				<img class="square-img" src="../assets//avatar.jpg" alt="avatar" />
 			</section>
 			<section class="code">
 				<iframe
-					src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=jsx&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520horizontal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522top%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fnaruto.jpeg%2522%2520alt%253D%2522naruto%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ENaruto%2520Anime%2520Itachi%2520Uchiha%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stars%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-symbols-outlined%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-symbols-outlined%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-symbols-outlined%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-symbols-outlined%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-symbols-outlined%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price%2522%253E%25E2%2582%25B9416%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EView%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-symbols-outlined%2520heart-icon%2522%253E%2520favorite%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+					src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=jsx&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522square-img%2522%2520src%253D%2522..%252Fassets%252F%252Fsoldier-army.jpeg%2522%2520alt%253D%2522soldier-army%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522square-img%2522%2520src%253D%2522..%252Fassets%252F%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
+			</section>
+			<!-- Square image -->
+			<section>
+				<h2>Responsive Image</h2>
+			</section>
+			<section class="design">
+				<img class="responsive-img" src="../assets//avatar.jpg" alt="avatar" />
+			</section>
+			<section class="code">
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=jsx&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522responsive-img%2522%2520src%253D%2522..%252Fassets%252F%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E"
 					sandbox="allow-scripts allow-same-origin"
 				>
 				</iframe>
