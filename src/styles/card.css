@@ -10,6 +10,7 @@
 }
 
 .card {
+  cursor: pointer;
 	background-color: white;
 	width: 20rem;
 	border-radius: 0.5em;
@@ -17,8 +18,8 @@
 
 .card-img {
 	display: block;
-	width: 14rem;
-	height: 14rem;
+	width: 12rem;
+	height: 12rem;
 	margin: auto;
 }
 
@@ -54,4 +55,51 @@
 .heart-icon {
 	font-size: 1.5rem;
 	margin-left: auto;
+  color: gray;
+  cursor: pointer;
+}
+
+.card.horizontal {
+	padding: 1em;
+}
+
+.card.horizontal > .top {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top > img {
+	width: 6rem;
+	height: 6rem;
+}
+
+.card.horizontal > .top > .info {
+	max-width: 60%;
+}
+
+.horizontal > .top > .info > h2 {
+	color: #7f00e1;
+}
+
+.horizontal > .bottom {
+	flex: 4;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1em;
+}
+
+.card.horizontal > .bottom > button {
+  color: #9e1fff;
+  background: #ffffff;
+  padding: 0.4em 2em;
+  border: 2px solid #9e1fff;
+  border-radius: 0.625em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card.horizontal > .bottom > button:hover {
+  background: #9e1fff;
+  color: #ffffff;
 }
