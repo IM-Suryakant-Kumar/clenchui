@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="/src/styles/toast.css" />
+		<link rel="stylesheet" href="/src/styles/typography.css" />
 		<script src="/src/scripts/menu.js" defer></script>
-		<title>Toast | ClenchUI</title>
+		<title>Typography | ClenchUI</title>
 	</head>
 	<body>
 		<!-- header -->
@@ -81,10 +81,10 @@
 					<a class="link" href="/src/components/slider.html">slider</a>
 				</li>
 				<li>
-					<a class="link active" href="/src/components/toast.html">toast</a>
+					<a class="link" href="/src/components/toast.html">toast</a>
 				</li>
 				<li>
-					<a class="link" href="/src/components/typography.html">typography</a>
+					<a class="link active" href="/src/components/typography.html">typography</a>
 				</li>
 			</ul>
 			<h3 class="chapter">Layout</h3>
@@ -106,34 +106,26 @@
 		<!-- main -->
 		<main>
 			<section>
-				<h2>Toast</h2>
-				<p>Toast are often used as tooltips or popups to show a message on the screen.</p>
-			</section>
-			<!-- Simple Toast -->
-			<section>
-				<h2>Simple Toast</h2>
+				<h2>Typography</h2>
+				<p>
+					The Typography component makes it easy to apply a default set of font weights and sizes in
+					your application.
+				</p>
 			</section>
 			<section class="design">
-				<button class="show-toast">Show Toast</button>
-				<div class="toast">Thank you for considering me!</div>
-				<!-- toast script -->
-				<script>
-					const showToastBtn = document.querySelector(".show-toast");
-					const toast = document.querySelector(".toast");
-					showToastBtn.addEventListener("click", () => {
-						showToastBtn.setAttribute("disabled", true);
-						toast.classList.toggle("show");
-						setTimeout(() => {
-							toast.classList.toggle("show");
-							showToastBtn.removeAttribute("disabled", true);
-						}, 3000);
-					});
-				</script>
+				<div>
+					<p class="font1">extra Large</p>
+					<p class="font2">larger</p>
+					<p class="font3">large</p>
+					<p class="font4">medium</p>
+					<p class="font5">small</p>
+					<p class="font6">smaller</p>
+					<p class="font7">extra small</p>
+				</div>
 			</section>
 			<section class="code">
 				<iframe
-					src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=jsx&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522show-toast%2522%253EShow%2520Toast%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522toast%2522%253EThank%2520you%2520for%2520considering%2520me%21%253C%252Fdiv%253E%250A%253C%21--%2520toast%2520script%2520--%253E%250A%253Cscript%253E%250A%2520%2520%2520%2520const%2520showToastBtn%2520%253D%2520document.querySelector%28%2522.show-toast%2522%29%253B%250A%2520%2520%2520%2520const%2520toast%2520%253D%2520document.querySelector%28%2522.toast%2522%29%253B%250A%2520%2520%2520%2520showToastBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520showToastBtn.setAttribute%28%2522disabled%2522%252C%2520true%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520toast.classList.toggle%28%2522show%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520setTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520toast.classList.toggle%28%2522show%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520showToastBtn.removeAttribute%28%2522disabled%2522%252C%2520true%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%252C%25203000%29%253B%250A%2520%2520%2520%2520%257D%29%253B%250A%253C%252Fscript%253E"
-					style="width: 552px; height: 336px; border: 0; transform: scale(1); overflow: hidden"
+					src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=jsx&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522font1%2522%253Eextra%2520Large%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font2%2522%253Elarger%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font3%2522%253Elarge%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font4%2522%253Emedium%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font5%2522%253Esmall%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font6%2522%253Esmaller%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font7%2522%253Eextra%2520small%253C%252Fp%253E"
 					sandbox="allow-scripts allow-same-origin"
 				>
 				</iframe>
