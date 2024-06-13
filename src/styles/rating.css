@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("/src/styles/root.css");
+@import url("/src/styles/header.css");
+@import url("/src/styles/aside.css");
+@import url("/src/styles/main-section.css");
+@import url("/src/styles/footer.css");
+
+.star {
+	color: rgb(244, 71, 8);
+}
