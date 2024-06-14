@@ -48,3 +48,11 @@ Copy the following link to get started with ClenchUI component. All you need to 
 1. [Grid](https://clenchui.netlify.app/src/pages/grid.html)
 1. [Flex](https://clenchui.netlify.app/src/pages/flex.html)
 1. [Color Pallete](https://clenchui.netlify.app/src/pages/color.html)
+
+## Live Demo
+
+
+https://github.com/IM-Suryakant-Kumar/ClenchUI/assets/66691162/0e75db4c-2cb2-4bba-95e5-c97f476e7608
+
+
+
