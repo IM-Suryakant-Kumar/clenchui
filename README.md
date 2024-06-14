@@ -1,4 +1,5 @@
 <div align="center">
+
 # ClenchUI
 
 ClenchUI is a component library that gives you builing blocks you need to build your applications faster and easily
@@ -46,4 +47,4 @@ Copy the following link to get started with ClenchUI component. All you need to 
 1. [Typography](https://clenchui.netlify.app/src/components/typography.html)
 1. [Grid](https://clenchui.netlify.app/src/pages/grid.html)
 1. [Flex](https://clenchui.netlify.app/src/pages/flex.html)
-1. [Color Pallet](https://clenchui.netlify.app/src/pages/color.html)
+1. [Color Pallete](https://clenchui.netlify.app/src/pages/color.html)
